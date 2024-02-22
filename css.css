@@ -58,6 +58,7 @@ button {
     position: sticky;
     z-index: 100;
     top: 0;
+
 }
 #menu__toggle {
     opacity: 0;
@@ -122,8 +123,8 @@ button {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 300px;
-    height: 80vh;
+    width:400px;
+    height: 100vh;
     margin: 0;
     padding: 80px 0;
     list-style: none;
@@ -137,7 +138,7 @@ button {
     padding: 12px 24px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
@@ -148,6 +149,10 @@ button {
 }
 /*-------------/burger-menu---------------------------*/
 @media(max-width: 992px) {
+    .header{
+        height: 100px;
+        display: flex;
+    }
     .header_logo{
         width: 50%;
     }
@@ -155,14 +160,18 @@ button {
         display: none;
     }
     .burger-menu{
+
         display: flow;
 
     }
+
 }
 
 #hero{
 width: 100%;
     background: #070f1f;
+    height: 100%;
+
 }
 .hero{
     padding: 20px;
