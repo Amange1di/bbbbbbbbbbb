@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header id="header">
@@ -25,12 +25,9 @@
             </nav>
             <div class="burger-menu">
                 <input id="menu__toggle" type="checkbox"/>
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
+                <label class="menu__btn" for="menu__toggle"><span></span></label>
                 <ul class="menu__box">
                     <li><a class="menu__item" href="index.html">Главный</a></li>
-
                     <li><a  class="menu__item"  href="index__1.html">Текст</a></li>
                     <li><a  class="menu__item" href="index__2.html">Картинки</a></li>
                     <li><a class="menu__item"  href="index__3.html">Видео</a></li>
@@ -48,7 +45,7 @@
 <section id="hero">
     <div class="container">
         <div class="hero">
-            <div class="hero_group">
+            <div  data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>DeepL</h1>
                     <p>Мощный онлайн-переводчик, работает с контекстом лучше аналогов за счет ИИ. На русский язык переводить тоже можно</p>
@@ -56,7 +53,7 @@
                 </div>
                 <img src="img/img_28.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div   data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Perplexity</h1>
                     <p>Поисковый движок на основе ИИ, который ищет информацию по всему интернету. Понимает запросы на русском</p>
@@ -64,7 +61,7 @@
                 </div>
                 <img src="img/img_29.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div  data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Replit Ghostwriter</h1>
                     <p>Поможет работать с кодом: дополнить его, написать с нуля по просьбе, найти и исправить ошибки</p>
@@ -72,7 +69,7 @@
                 </div>
                 <img src="img/img_30.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div   data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Any Summary</h1>
                     <p>Суммаризирует информацию из документов в любом формате</p>
@@ -80,7 +77,7 @@
                 </div>
                 <img src="img/img_31.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div  data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Kickresume</h1>
                     <p>Создает резюме с помощью ИИ, в том числе на русском языке, — достаточно заполнить небольшую анкету</p>
@@ -88,7 +85,7 @@
                 </div>
                 <img src="img/img_32.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div   data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Slides AI</h1>
                     <p>Помощник в создании презентаций: можно задать вводные на русском языке, а нейросеть сама дополнит их и разобьет по слайдам</p>
@@ -96,7 +93,7 @@
                 </div>
                 <img src="img/img_33.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div  data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Notion AI</h1>
                     <p>Сервис для продуктивности, в котором ИИ дописывает тексты за вас, в том числе на русском языке</p>
@@ -104,7 +101,7 @@
                 </div>
                 <img src="img/img_34.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div   data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Phind</h1>
                     <p>Поисковик для разработчиков: помогает писать код и ищет информацию только на специализированных сайтах</p>
@@ -112,7 +109,7 @@
                 </div>
                 <img src="img/img_35.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div  data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>PDF Parser</h1>
                     <p>Собирает данные из PDF и объединяет в удобный формат: таблицы, списки, базы данных</p>
@@ -120,7 +117,7 @@
                 </div>
                 <img src="img/img_36.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div   data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Grammarly</h1>
                     <p>Исправляет грамматические ошибки на английском языке</p>
@@ -131,7 +128,8 @@
         </div>
     </div>
 </section>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 </body>
 </html>

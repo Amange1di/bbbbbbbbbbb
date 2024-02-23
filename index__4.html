@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header id="header">
@@ -25,22 +25,17 @@
             </nav>
             <div class="burger-menu">
                 <input id="menu__toggle" type="checkbox"/>
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
+                <label class="menu__btn" for="menu__toggle"><span></span></label>
                 <ul class="menu__box">
                     <li><a class="menu__item" href="index.html">Главный</a></li>
-
-                    <li><a  class="menu__item"  href="index__1.html">Текст</a></li>
-                    <li><a  class="menu__item" href="index__2.html">Картинки</a></li>
-                    <li><a class="menu__item"  href="index__3.html">Видео</a></li>
-                    <li><a  class="menu__item" href="index__4.html">Звук и голос</a></li>
-                    <li><a class="menu__item"  href="index__5.html">Продуктивность</a></li>
-                    <li><a class="menu__item"  href="index__6.html">Развлечения</a></li>
-
+                    <li><a class="menu__item" href="index__1.html">Текст</a></li>
+                    <li><a class="menu__item" href="index__2.html">Картинки</a></li>
+                    <li><a class="menu__item" href="index__3.html">Видео</a></li>
+                    <li><a class="menu__item" href="index__4.html">Звук и голос</a></li>
+                    <li><a class="menu__item" href="index__5.html">Продуктивность</a></li>
+                    <li><a class="menu__item" href="index__6.html">Развлечения</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
 </header>
@@ -48,7 +43,7 @@
 <section id="hero">
     <div class="container">
         <div class="hero">
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Adobe Enhance</h1>
                     <p>Качественно очистит дорожку с голосом от помех и шумов</p>
@@ -56,7 +51,7 @@
                 </div>
                 <img src="img/img_21.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Soundraw</h1>
                     <p>Генератор треков без вокала, где можно выбрать настроение, жанр, тему, темп и инструменты</p>
@@ -64,7 +59,7 @@
                 </div>
                 <img src="img/img_22.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Riffusion</h1>
                     <p>Генерирует музыку по спектрограммам, которые создаются по вашему текстовому запросу</p>
@@ -72,7 +67,7 @@
                 </div>
                 <img src="img/img_23.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Mubert</h1>
                     <p>Создает фоновую музыку для YouTube, которую можно использовать без лицензии</p>
@@ -80,7 +75,7 @@
                 </div>
                 <img src="img/img_24.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Voice.AI</h1>
                     <p>Клонирует и изменяет голоса</p>
@@ -88,7 +83,7 @@
                 </div>
                 <img src="img/img_25.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Krisp</h1>
                     <p>Заглушает фоновые шумы на созвонах</p>
@@ -96,7 +91,7 @@
                 </div>
                 <img src="img/img_26.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Murf</h1>
                     <p>Превращает текст в аудио, в том числе на русском языке</p>
@@ -107,7 +102,8 @@
         </div>
     </div>
 </section>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header id="header">
@@ -25,9 +25,7 @@
             </nav>
             <div class="burger-menu">
                 <input id="menu__toggle" type="checkbox"/>
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
+                <label class="menu__btn" for="menu__toggle"><span></span></label>
                 <ul class="menu__box">
                     <li><a class="menu__item" href="index.html">Главный</a></li>
                     <li><a class="menu__item" href="index__1.html">Текст</a></li>
@@ -36,10 +34,8 @@
                     <li><a class="menu__item" href="index__4.html">Звук и голос</a></li>
                     <li><a class="menu__item" href="index__5.html">Продуктивность</a></li>
                     <li><a class="menu__item" href="index__6.html">Развлечения</a></li>
-
                 </ul>
             </div>
-
         </div>
     </div>
 </header>
@@ -47,7 +43,7 @@
 <section id="hero">
     <div class="container">
         <div class="hero">
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Bing Image Creator</h1>
                     <p>Генерирует любые картинки на основе нейросети DallE-2 от OpenAI</p>
@@ -55,7 +51,7 @@
                 </div>
                 <img src="img/img_7.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>DreamStudio</h1>
                     <p>Официальная облегченная версия продвинутой нейросети Stable Diffusion от компании StabilityAI</p>
@@ -63,7 +59,7 @@
                 </div>
                 <img src="img/img_8.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>VanceAI</h1>
                     <p>Повышает разрешение картинок, колоризует и восстанавливает старые фото</p>
@@ -71,7 +67,7 @@
                 </div>
                 <img src="img/img_9.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Remove.bg</h1>
                     <p>Качественно убирает фон с фотографий и картинок. Точно видит объект, который нужно обрезать</p>
@@ -79,7 +75,7 @@
                 </div>
                 <img src="img/img_10.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Kandinsky</h1>
                     <p>Ему можно описать картинку на русском языке — все поймет, учтет детали и стилистику</p>
@@ -87,7 +83,7 @@
                 </div>
                 <img src="img/img_11.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Шедеврум</h1>
                     <p>Не просто генератор картинок, а мини-соцсеть от «Яндекса», где можно смотреть работы и
@@ -96,7 +92,7 @@
                 </div>
                 <img src="img/img_12.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Wallpapers.fyi</h1>
                     <p>Бесконечный генератор обоев для рабочего стола</p>
@@ -104,7 +100,7 @@
                 </div>
                 <img src="img/img_13.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>Photoshop Generative Fill</h1>
                     <p>Нейросети в популярном фоторедакторе: расширяют границы изображения, удаляют объекты со
@@ -113,7 +109,7 @@
                 </div>
                 <img src="img/img_14.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>PicFinder</h1>
                     <p>Генерирует бесконечное количество картинок по одному запросу</p>
@@ -125,6 +121,7 @@
     </div>
 </section>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header id="header">
@@ -25,10 +25,7 @@
             </nav>
             <div class="burger-menu">
                 <input id="menu__toggle" type="checkbox"/>
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-
+                <label class="menu__btn" for="menu__toggle"><span></span></label>
                 <ul class="menu__box">
                     <li><a class="menu__item" href="index.html">Главный</a></li>
                     <li><a class="menu__item" href="index__1.html">Текст</a></li>
@@ -47,59 +44,65 @@
 <section id="hero">
     <div class="container">
         <div class="hero">
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>ChatGPT</h1>
-                    <p>Самый продвинутый чат-бот, который напишет текст, составит таблицу, подскажет фильм на вечер и научит готовить</p>
-                    <a href="">Попробовать</a>
+                    <p>Самый продвинутый чат-бот, который напишет текст, составит таблицу, подскажет фильм на вечер и
+                        научит готовить</p>
+                    <a href="https://chat.openai.com/">Попробовать</a>
 
                 </div>
-                <p>.</p>
+
                 <img src="img/img.png" alt="">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>CharacterAI</h1>
-                    <p>Имитирует стиль общения популярных личностей и персонажей. Можно перекинуться парой слов на русском с Илоном Маском или поспорить с Микки Маусом</p>
+                    <p>Имитирует стиль общения популярных личностей и персонажей. Можно перекинуться парой слов на
+                        русском с Илоном Маском или поспорить с Микки Маусом</p>
                     <a href="https://chat.openai.com/">Попробовать</a>
 
                 </div>
 
                 <img src="img/img_1.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Rytr</h1>
-                    <p>Пишет тексты, в том числе на русском, в разных стилистиках: рекламный пост в восторженном тоне или описание вакансии в сдержанном</p>
+                    <p>Пишет тексты, в том числе на русском, в разных стилистиках: рекламный пост в восторженном тоне
+                        или описание вакансии в сдержанном</p>
                     <a href="https://beta.character.ai/">Попробовать</a>
                 </div>
                 <img src="img/img_2.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>JasperAI</h1>
-                    <p>Полезный ИИ-инструмент с поддержкой русского языка для копирайтеров. Поможет написать отличный текст в любом стиле</p>
+                    <p>Полезный ИИ-инструмент с поддержкой русского языка для копирайтеров. Поможет написать отличный
+                        текст в любом стиле</p>
                     <a href="https://rytr.me/?via=erik-ha">Попробовать</a>
                 </div>
                 <img src="img/img_3.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>Bing AI</h1>
-                    <p>ИИ встроен в поисковую систему Microsoft. Умеет выходить в интернет и обращаться к актуальным данным, понимает русский язык</p>
+                    <p>ИИ встроен в поисковую систему Microsoft. Умеет выходить в интернет и обращаться к актуальным
+                        данным, понимает русский язык</p>
                     <a href="https://www.bing.com/new">Попробовать</a>
                 </div>
                 <img src="img/img_4.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-left" class="hero_group">
                 <div class="hero_text">
                     <h1>GigaChat</h1>
-                    <p>Ответ ChatGPT от Сбера. Главная фишка — нативная поддержка русского языка, лучше, чем у конкурентов. Доступ раскатывают постепенно</p>
+                    <p>Ответ ChatGPT от Сбера. Главная фишка — нативная поддержка русского языка, лучше, чем у
+                        конкурентов. Доступ раскатывают постепенно</p>
                     <a href="https://developers.sber.ru/portal/products/gigachat">Попробовать</a>
                 </div>
                 <img src="img/img_5.png" alt="img">
             </div>
-            <div class="hero_group">
+            <div data-aos="fade-right" class="hero_group">
                 <div class="hero_text">
                     <h1>YandexGPT</h1>
                     <p>Проигрывает конкурентам в понимании контекста, зато можно управлять голосом с помощью Алисы</p>
@@ -111,6 +114,7 @@
     </div>
 </section>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
